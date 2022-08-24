@@ -1,0 +1,167 @@
+.container {
+    width: 80%;
+    height: 110vh;
+    background: #fffefe;
+    border-radius: 0.6rem;
+    box-shadow: rgba(0, 0, 0, 0.11) 0px 1px 4px;
+  }
+  
+  .image-container {
+    flex: 0 1 35%;
+    height: 100%;
+  
+    background: linear-gradient(rgb(105, 6, 249, 0.4), rgb(105, 6, 249, 0.4)),
+      url(" https://preview.colorlib.com/theme/bootstrap/signup-form-16/images/xbg.jpg.pagespeed.ic.mOQrWKiduN.webp");
+    background-position: center center;
+    border-top-left-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+    padding: 3.5rem;
+  }
+  
+  .introductory-container h1 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+  
+  .introductory-container p {
+    font-size: 1.4rem;
+    color: #e9e4fd;
+  }
+  
+  /* form styling start here  */
+  .form-container {
+    flex: 0 1 65%;
+    position: relative;
+    padding: 0 11%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: .1rem solid #000; */
+  }
+  
+  .form-container legend {
+    font-size: 1.8rem;
+    color: #000;
+    font-weight: 700;
+  }
+  
+  /* social icon stylinng start here  */
+  
+  .icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon-circle {
+    width: 3.5rem;
+    height: 3.5rem;
+    background: #fff;
+    /* border: .1rem solid #dddddd; */
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    border-radius: 50%;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon-circle:hover {
+    background-color: rgb(105, 6, 249);
+    color: #fff;
+  }
+  
+  svg:hover {
+    color: #fff;
+  }
+  
+  /* social icon stylign ends here  */
+  .horizontal-line {
+    height: 0.1rem;
+    background: #dddddd;
+    margin: 2rem 0;
+    width: 100%;
+    position: relative;
+  }
+  
+  .horizontal-line span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 4rem;
+    background: #fff;
+    font-size: 1.3rem;
+    color: gray;
+  }
+  
+  .flex-row-input {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .user-consent {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 1rem 0;
+  }
+  .user-consent input {
+    background: rgba(240, 240, 240, 0.8);
+  }
+  .user-consent label {
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    color: gray;
+  }
+  
+  .btn {
+    padding: 1.4rem 1.6rem;
+    background: rgb(105, 6, 249);
+    color: #fff;
+    border: none;
+    border-radius: 0.4rem;
+    align-self: flex-start;
+    margin: 2rem 0;
+  }
+  
+  .info-container {
+    align-self: flex-start;
+    font-size: 1.3rem;
+    color: gray;
+  }
+  
+  /* Responsive media queries  */
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+    }
+  
+    .container flex-row
+     {
+      flex: 1 1 100%;
+      min-height: 27rem;
+      background-position: center 40%;
+      border-top-left-radius: 0.6rem;
+      border-top-right-radius: 0.6rem;
+    border-bottom-left-radius: 0px;
+    }
+  
+    .form-container {
+      flex: 0 1 100% !important;
+      padding: 2rem;
+    }
+    .flex-row-input {
+      flex-direction: column;
+    }
+  }

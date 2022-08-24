@@ -1,0 +1,32 @@
+.input-box-container{
+    width: 100%;
+    margin: 1rem 0 ;
+}
+
+.input-box{
+    height: 4rem;
+    background : rgba(240, 240, 240, 0.8);
+    padding:  0 1rem;
+    border: none;
+    display: block;
+    width: 100%;
+    border-radius: .4rem;
+
+}
+
+.input-box:focus{
+    outline: none;
+}
+
+.input-label{
+    font-family: 'Roboto', sans-serif !important ;
+    font-size: 1.3rem;
+    display: block;
+    margin-bottom: .4rem;
+    font-weight: 600;
+}
+
+.active-link{
+    color: rgb(105,6,249);
+    font-weight:500 ;
+}
